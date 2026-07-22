@@ -47,10 +47,7 @@ export default function Hero() {
           />
 
           {/* Floating Abstract Shapes */}
-          <motion.div 
-            animate={{ rotate: 360, y: [0, 20, 0] }} transition={{ duration: 30, repeat: Infinity, ease: "linear" }}
-            className="absolute top-[15%] left-[10%] lg:left-[20%] w-16 h-16 bg-gradient-to-tr from-maroon/30 to-red-400/20 rounded-2xl rotate-45 backdrop-blur-md border border-white/80" 
-          />
+
           <motion.div 
             animate={{ scale: [1, 1.15, 1], opacity: [0.5, 0.8, 0.5], rotate: [0, 90, 0] }} transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
             className="absolute bottom-[20%] left-[8%] w-32 h-32 border-[10px] border-maroon/20 rounded-full" 
@@ -149,7 +146,7 @@ export default function Hero() {
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-8 items-center">
             
             {/* Left — Text */}
-            <div className="order-2 lg:order-1 text-center lg:text-left pt-10 lg:pt-0">
+            <div className="order-2 lg:order-1 flex flex-col items-center lg:items-start text-center lg:text-left pt-10 lg:pt-0 w-full">
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -258,7 +255,7 @@ export default function Hero() {
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.5, type: "spring", stiffness: 150 }}
-                  className="absolute -right-6 lg:-right-8 bottom-1/4 bg-white rounded-xl p-3 shadow-xl flex items-center gap-3 border border-slate-100"
+                  className="absolute -right-2 lg:-right-4 bottom-1/4 bg-white rounded-xl p-3 shadow-xl flex items-center gap-3 border border-slate-100 z-30"
                 >
                   <div className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-white font-bold">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
