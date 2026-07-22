@@ -96,7 +96,7 @@ export default function Skills() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: i * 0.05 }}
-                  className="flex flex-col items-center justify-center gap-3 p-5 rounded-2xl bg-white border border-slate-100 shadow-sm hover:shadow-md hover:border-maroon/20 transition-all duration-300 group"
+                  className="flex flex-col items-center justify-center gap-2 sm:gap-3 p-4 sm:p-5 rounded-2xl bg-white border border-slate-100 shadow-sm hover:shadow-md hover:border-maroon/20 transition-all duration-300 group"
                 >
                   <skill.icon className="w-8 h-8 text-slate-400 group-hover:text-maroon transition-colors duration-300" />
                   <span className="text-sm font-medium text-slate-600 text-center group-hover:text-foreground transition-colors">
@@ -123,7 +123,7 @@ export default function Skills() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: i * 0.05 }}
-                  className="flex flex-col items-center justify-center gap-3 p-5 rounded-2xl bg-white border border-slate-100 shadow-sm hover:shadow-md hover:border-maroon/20 transition-all duration-300 group"
+                  className="flex flex-col items-center justify-center gap-2 sm:gap-3 p-4 sm:p-5 rounded-2xl bg-white border border-slate-100 shadow-sm hover:shadow-md hover:border-maroon/20 transition-all duration-300 group"
                 >
                   <tool.icon className="w-8 h-8 text-slate-400 group-hover:text-maroon transition-colors duration-300" />
                   <span className="text-sm font-medium text-slate-600 text-center group-hover:text-foreground transition-colors">

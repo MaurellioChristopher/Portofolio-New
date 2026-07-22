@@ -14,7 +14,7 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
-      transition={{ delay: index * 0.15 + 0.2, duration: 0.6 }}
+      transition={{ delay: index * 0.05 + 0.1, duration: 0.4 }}
       className="group bg-card rounded-2xl border border-card-border overflow-hidden card-hover flex flex-col h-full"
     >
       {/* Image / Placeholder */}

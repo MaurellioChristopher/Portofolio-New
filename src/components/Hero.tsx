@@ -153,7 +153,7 @@ export default function Hero() {
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5 }}
+                transition={{ duration: 0.4 }}
                 className="inline-flex items-center gap-2 mb-4"
               >
                 <span className="text-sm font-bold text-maroon uppercase tracking-[0.15em]">
@@ -164,7 +164,7 @@ export default function Hero() {
               <motion.h1
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.2 }}
+                transition={{ duration: 0.4, delay: 0.1 }}
                 className="text-3xl sm:text-5xl md:text-6xl font-extrabold text-foreground leading-tight mb-4"
               >
                 Hi, I&apos;m <span className="text-maroon">Maurellio</span><br />
@@ -176,7 +176,7 @@ export default function Hero() {
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.3 }}
+                transition={{ duration: 0.4, delay: 0.2 }}
                 className="text-base sm:text-lg text-slate-600 mt-6 mb-10 max-w-xl mx-auto lg:mx-0 leading-relaxed font-medium"
               >
                 Undergraduate Information Systems Student at Telkom University. Chairman of MTO. 
@@ -187,7 +187,7 @@ export default function Hero() {
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.4 }}
+                transition={{ duration: 0.4, delay: 0.3 }}
                 className="flex flex-wrap items-center justify-center lg:justify-start gap-4"
               >
                 <a
@@ -224,7 +224,7 @@ export default function Hero() {
             <motion.div
               initial={{ opacity: 0, x: 40 }}
               animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.8, delay: 0.3 }}
+              transition={{ duration: 0.5, delay: 0.2 }}
               className="order-1 lg:order-2 relative flex justify-center lg:justify-end mt-10 lg:mt-0"
             >
               <div className="relative w-full max-w-[320px] sm:max-w-[380px] lg:max-w-[400px]">
@@ -241,7 +241,7 @@ export default function Hero() {
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: 0.8, type: "spring", stiffness: 150 }}
+                  transition={{ delay: 0.4, type: "spring", stiffness: 150 }}
                   className="absolute -left-6 lg:-left-12 top-1/4 bg-white rounded-xl p-3 shadow-xl flex items-center gap-3 border border-slate-100 z-20"
                 >
                   <div className="w-10 h-10 rounded-full bg-maroon flex items-center justify-center text-white font-bold">
@@ -257,7 +257,7 @@ export default function Hero() {
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: 1, type: "spring", stiffness: 150 }}
+                  transition={{ delay: 0.5, type: "spring", stiffness: 150 }}
                   className="absolute -right-6 lg:-right-8 bottom-1/4 bg-white rounded-xl p-3 shadow-xl flex items-center gap-3 border border-slate-100"
                 >
                   <div className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-white font-bold">
@@ -275,7 +275,7 @@ export default function Hero() {
                 <motion.div
                   initial={{ opacity: 0, scale: 0 }}
                   animate={{ opacity: 1, scale: 1 }}
-                  transition={{ delay: 1.2, type: "spring" }}
+                  transition={{ delay: 0.6, type: "spring" }}
                   className="absolute -top-4 right-4 sm:right-20 lg:right-24 bg-maroon text-white text-[10px] sm:text-xs font-bold px-3 sm:px-4 py-1.5 sm:py-2 rounded-full shadow-xl rotate-6 border border-maroon-dark z-20"
                 >
                   Data Analyst
@@ -285,7 +285,7 @@ export default function Hero() {
                 <motion.div
                   initial={{ opacity: 0, scale: 0 }}
                   animate={{ opacity: 1, scale: 1 }}
-                  transition={{ delay: 1.4, type: "spring" }}
+                  transition={{ delay: 0.7, type: "spring" }}
                   className="absolute -bottom-5 left-4 sm:left-12 lg:left-20 bg-slate-800 text-white text-[10px] sm:text-xs font-bold px-3 sm:px-4 py-1.5 sm:py-2 rounded-full shadow-xl -rotate-6 border border-slate-700 z-20"
                 >
                   Web Designer

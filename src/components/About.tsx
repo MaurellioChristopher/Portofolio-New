@@ -14,10 +14,6 @@ const skills = [
   { name: "PostgreSQL", category: "Database" },
   { name: "TypeScript", category: "Language" },
   { name: "Figma", category: "Design" },
-  { name: "LKMM-TM", category: "Certification" },
-  { name: "LKMMTD", category: "Certification" },
-  { name: "SAP Certified - SCM500", category: "Certification" },
-  { name: "Website Development Fundamental", category: "Certification" },
 ];
 
 const highlights = [
@@ -89,7 +85,7 @@ export default function About() {
             initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
+            transition={{ duration: 0.4 }}
             className="flex justify-center"
           >
             <div className="relative w-full max-w-[400px]">
@@ -153,7 +149,7 @@ export default function About() {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: i * 0.1 + 0.2 }}
+              transition={{ delay: i * 0.05 + 0.1 }}
               className="bg-card rounded-2xl p-6 border border-card-border card-hover"
             >
               <div className="w-12 h-12 rounded-xl bg-maroon/5 flex items-center justify-center text-maroon mb-4">
@@ -179,7 +175,7 @@ export default function About() {
                 initial={{ opacity: 0, scale: 0.8 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
-                transition={{ delay: i * 0.04 + 0.2 }}
+                transition={{ delay: i * 0.02 + 0.1 }}
                 className="px-4 py-2 bg-card border border-card-border rounded-full text-sm font-medium text-foreground/80 hover:border-maroon/30 hover:text-maroon transition-all duration-200 cursor-default"
               >
                 {skill.name}
